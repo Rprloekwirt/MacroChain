@@ -128,7 +128,8 @@ namespace MacroChain {
 
         public void OnRunMacroCommand(string command, string args) {
             try {
-                if (lastExecutedMacro != null) {
+                // if (lastExecutedMacro != null) {
+                if (false) {
                     Chat.PrintError("/runmacro is not usable while macros are running. Please use /nextmacro");
                     return;
                 }
